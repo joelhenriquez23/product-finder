@@ -1,0 +1,59 @@
+.Step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .75rem;
+    border: 2px solid #CCC;
+    padding: 1.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: #FFF;
+}
+
+.StepName {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Step svg {
+    margin-bottom: 1.5rem;
+}
+
+.Step:hover {
+    background-color: #FFF;
+    color: #6D52AF;
+}
+
+.Step:hover svg {
+    fill: #6D52AF;
+}
+
+/* Step 1 */
+
+.Step.Step-1 {
+    width: calc(50% - 1.5rem);
+}
+
+.Step.Step-2 {
+    width: calc(33.33% - 1.5rem);
+}
+
+.Step.Step-3 {
+    width: calc(33.33% - 1.5rem);
+}
+
+
+
+
+/* Icons */
+
+.step-home {
+    width: 113px;
+    height: 83px;
+}
+
+.step-vehicle {
+    width: 113px;
+    height: 88px;
+}
