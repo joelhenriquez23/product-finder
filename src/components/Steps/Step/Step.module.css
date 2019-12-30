@@ -29,7 +29,7 @@
     fill: #6D52AF;
 }
 
-/* Step 1 */
+/* Step Widths */
 
 .Step.Step-1 {
     width: calc(50% - 1.5rem);
@@ -43,10 +43,7 @@
     width: calc(33.33% - 1.5rem);
 }
 
-
-
-
-/* Icons */
+/* Step Icons */
 
 .step-home {
     width: 113px;
@@ -56,4 +53,81 @@
 .step-vehicle {
     width: 113px;
     height: 88px;
+}
+
+.step-singleroom {
+    width: 60px;
+    height: 59px;
+}
+
+.step-midsizehouse {
+    width: 86px;
+    height: 75px;
+}
+
+.step-largehouse {
+    width: 103px;
+    height: 85px;
+}
+
+.step-car {
+    width: 98px;
+    height: 45px;
+}
+
+.step-rv {
+    width: 102px;
+    height: 62px;
+}
+
+.step-boat {
+    width: 132px;
+    height: 52px;
+}
+
+/* Step Logos */
+
+.logo {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logoATT {
+    width: 115px;
+    height: 58px;
+    background-image: url('../../../assets/logos/att-white.svg');
+}
+
+.Step:hover .logoATT {
+    background-image: url('../../../assets/logos/att.svg');
+}
+
+.logoVerizon {    
+    width: 135px;
+    height: 32px;
+    background-image: url('../../../assets/logos/verizon-white.svg');
+}
+
+.Step:hover .logoVerizon {
+    background-image: url('../../../assets/logos/verizon.svg');
+}
+
+.logoTMobile {    
+    width: 140px;
+    height: 30px;
+    background-image: url('../../../assets/logos/t-mobile-white.svg');
+}
+
+.Step:hover .logoTMobile {
+    background-image: url('../../../assets/logos/t-mobile.svg');
+}
+
+.logoSprint {    
+    width: 130px;
+    height: 55px;
+    background-image: url('../../../assets/logos/sprint-white.svg');
+}
+
+.Step:hover .logoSprint {
+    background-image: url('../../../assets/logos/sprint.svg');
 }
